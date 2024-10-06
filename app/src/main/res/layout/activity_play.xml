@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logu"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/questionTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/text_bg"
+        android:textColor="@color/white"
+        android:text="@string/enter_a_question"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+
+
+      <RadioGroup
+          android:id="@+id/redioGroup"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+
+
+
+          >
+          <RadioButton
+              android:id="@+id/option1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/option_1"
+              android:textSize="20sp"
+              android:paddingHorizontal="8dp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:layout_marginHorizontal="30dp"
+              android:layout_marginTop="23dp"
+              android:background="@drawable/text_bg2"
+
+              />
+          <RadioButton
+              android:id="@+id/option2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/option_1"
+              android:textSize="20sp"
+              android:paddingHorizontal="8dp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:layout_marginHorizontal="30dp"
+              android:layout_marginTop="23dp"
+              android:background="@drawable/text_bg2"
+
+              />
+
+          <RadioButton
+              android:id="@+id/option3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/option_1"
+              android:textSize="20sp"
+              android:paddingHorizontal="8dp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:layout_marginHorizontal="30dp"
+              android:layout_marginTop="23dp"
+              android:background="@drawable/text_bg2"
+
+              />
+          <RadioButton
+              android:id="@+id/option4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/option_1"
+              android:textSize="20sp"
+              android:paddingHorizontal="8dp"
+              android:textStyle="bold"
+              android:textColor="@color/white"
+              android:layout_marginHorizontal="30dp"
+              android:layout_marginTop="23dp"
+              android:background="@drawable/text_bg2"
+
+              />
+
+
+      </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextBtn"
+        android:layout_width="100dp"
+        android:layout_height="39dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="100dp"
+        android:background="#000"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        android:layout_gravity="end"
+
+        >
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</LinearLayout>
